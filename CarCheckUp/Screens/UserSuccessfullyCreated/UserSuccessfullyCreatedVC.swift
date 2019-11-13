@@ -7,5 +7,9 @@ class UserSuccessfullyCreatedVC: UIViewController {
         super.viewDidLoad()
         print("UserSuccessfullyCreated has been loaded...")
     }
+    
+    override var prefersStatusBarHidden: Bool {
+       return true
+    }
 
 }

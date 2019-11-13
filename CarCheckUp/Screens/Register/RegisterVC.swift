@@ -5,6 +5,10 @@ class RegisterVC: UIViewController {
 
     @IBOutlet weak var gradientBottomView: UIView!
     
+    @IBAction func unwindToRegisterScreen(_ unwindSegue: UIStoryboardSegue) {
+        let sourceViewController = unwindSegue.source
+        print(sourceViewController)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -13,6 +17,6 @@ class RegisterVC: UIViewController {
     
     override var prefersStatusBarHidden: Bool {
        return true
-   }
+    }
 
 }
