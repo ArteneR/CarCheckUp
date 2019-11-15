@@ -61,7 +61,7 @@ class GradientView: UIView {
     func updateView() {
         let layer = self.layer as! CAGradientLayer
         layer.colors = [firstColor, secondColor].map{$0.cgColor}
-        layer.locations = [firstColorOffset as! NSNumber, secondColorOffset as! NSNumber]
+        layer.locations = [firstColorOffset as NSNumber, secondColorOffset as NSNumber]
         layer.startPoint = CGPoint(x: startPointX, y: startPointY)
         layer.endPoint = CGPoint(x: endPointX, y: endPointY)
     }

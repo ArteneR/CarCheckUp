@@ -10,6 +10,9 @@
 		D0294A34237B453000D1BD95 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0294A33237B453000D1BD95 /* constants.swift */; };
 		D0294A36237B48B500D1BD95 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0294A35237B48B500D1BD95 /* GradientView.swift */; };
 		D0294A38237B5A9800D1BD95 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0294A37237B5A9800D1BD95 /* RoundedCorners.swift */; };
+		D081E1CA237F428700B4E828 /* fa-solid-900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D081E1C7237F428700B4E828 /* fa-solid-900.ttf */; };
+		D081E1CB237F428700B4E828 /* fa-brands-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D081E1C8237F428700B4E828 /* fa-brands-400.ttf */; };
+		D081E1CC237F428700B4E828 /* fa-regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D081E1C9237F428700B4E828 /* fa-regular-400.ttf */; };
 		D095D8F22377462F0035019D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D095D8F12377462F0035019D /* AppDelegate.swift */; };
 		D095D8F42377462F0035019D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D095D8F32377462F0035019D /* SceneDelegate.swift */; };
 		D095D8F62377462F0035019D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D095D8F52377462F0035019D /* MainVC.swift */; };
@@ -19,9 +22,6 @@
 		D095D909237746320035019D /* CarCheckUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D095D908237746320035019D /* CarCheckUpTests.swift */; };
 		D095D921237753930035019D /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D095D920237753930035019D /* RegisterVC.swift */; };
 		D095D925237754000035019D /* UserSuccessfullyCreatedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D095D924237754000035019D /* UserSuccessfullyCreatedVC.swift */; };
-		D095D92C237770F70035019D /* fa-solid-900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D095D929237770F60035019D /* fa-solid-900.ttf */; };
-		D095D92D237770F70035019D /* fa-brands-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D095D92A237770F70035019D /* fa-brands-400.ttf */; };
-		D095D92E237770F70035019D /* fa-regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D095D92B237770F70035019D /* fa-regular-400.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,9 @@
 		D0294A33237B453000D1BD95 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 		D0294A35237B48B500D1BD95 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		D0294A37237B5A9800D1BD95 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		D081E1C7237F428700B4E828 /* fa-solid-900.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "fa-solid-900.ttf"; path = "Resources/Fonts/fa-solid-900.ttf"; sourceTree = SOURCE_ROOT; };
+		D081E1C8237F428700B4E828 /* fa-brands-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "fa-brands-400.ttf"; path = "Resources/Fonts/fa-brands-400.ttf"; sourceTree = SOURCE_ROOT; };
+		D081E1C9237F428700B4E828 /* fa-regular-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "fa-regular-400.ttf"; path = "Resources/Fonts/fa-regular-400.ttf"; sourceTree = SOURCE_ROOT; };
 		D095D8EE2377462F0035019D /* CarCheckUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarCheckUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D095D8F12377462F0035019D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D095D8F32377462F0035019D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,9 +54,6 @@
 		D095D90A237746320035019D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D095D920237753930035019D /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegisterVC.swift; path = CarCheckUp/Screens/Register/RegisterVC.swift; sourceTree = SOURCE_ROOT; };
 		D095D924237754000035019D /* UserSuccessfullyCreatedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSuccessfullyCreatedVC.swift; sourceTree = "<group>"; };
-		D095D929237770F60035019D /* fa-solid-900.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "fa-solid-900.ttf"; path = "Resources/fa-solid-900.ttf"; sourceTree = SOURCE_ROOT; };
-		D095D92A237770F70035019D /* fa-brands-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "fa-brands-400.ttf"; path = "Resources/fa-brands-400.ttf"; sourceTree = SOURCE_ROOT; };
-		D095D92B237770F70035019D /* fa-regular-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "fa-regular-400.ttf"; path = "Resources/fa-regular-400.ttf"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,9 +204,9 @@
 		D095D926237770CF0035019D /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				D095D92A237770F70035019D /* fa-brands-400.ttf */,
-				D095D92B237770F70035019D /* fa-regular-400.ttf */,
-				D095D929237770F60035019D /* fa-solid-900.ttf */,
+				D081E1C8237F428700B4E828 /* fa-brands-400.ttf */,
+				D081E1C9237F428700B4E828 /* fa-regular-400.ttf */,
+				D081E1C7237F428700B4E828 /* fa-solid-900.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -293,11 +293,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D095D8FE237746310035019D /* LaunchScreen.storyboard in Resources */,
-				D095D92C237770F70035019D /* fa-solid-900.ttf in Resources */,
 				D095D8FB237746310035019D /* Assets.xcassets in Resources */,
-				D095D92E237770F70035019D /* fa-regular-400.ttf in Resources */,
+				D081E1CC237F428700B4E828 /* fa-regular-400.ttf in Resources */,
+				D081E1CB237F428700B4E828 /* fa-brands-400.ttf in Resources */,
 				D095D8F92377462F0035019D /* Main.storyboard in Resources */,
-				D095D92D237770F70035019D /* fa-brands-400.ttf in Resources */,
+				D081E1CA237F428700B4E828 /* fa-solid-900.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,7 +492,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.artener.CarCheckUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -510,7 +510,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.artener.CarCheckUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
