@@ -416,7 +416,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1481.25" y="239.78873239436621"/>
+            <point key="canvasLocation" x="1144" y="131"/>
         </scene>
         <!--User Successfully CreatedVC-->
         <scene sceneID="YoR-Py-LVM">
@@ -520,7 +520,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vVx-4w-xav" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="uc0-mr-8ja" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="4903" y="131"/>
+            <point key="canvasLocation" x="3071" y="131"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="9I7-IK-KG1">
@@ -932,7 +932,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WIb-uz-5M4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="opm-wG-9tl" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3206.25" y="130.98591549295776"/>
+            <point key="canvasLocation" x="2132" y="131"/>
         </scene>
     </scenes>
     <resources>
